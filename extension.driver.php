@@ -5,7 +5,7 @@
 		public function about(){
 			return array(
 				'name' => 'jQuery Date Picker',
-				'version' => '1.0',
+				'version' => '1.1',
 				'release-date' => '2009-01-20',
 				'author' => array(
 					'name' => 'Max Wheeler',
@@ -29,7 +29,6 @@
 			$assets_path = '/extensions/jquery_date_picker/assets/';
 			
 			# load jQuery and autocomplete JS
-			$page->addScriptToHead('http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js', 220);
 			$page->addScriptToHead(URL . $assets_path . 'jquery-ui-core-datepicker.js', 430);
 			$page->addScriptToHead(URL . $assets_path . 'initialise.js', 431);
 			
