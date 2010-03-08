@@ -1,8 +1,8 @@
 # jQuery Date Picker #
 
-Version: 1.1  
+Version: 1.2  
 Author: Max Wheeler (max@makenosound.com)  
-Build Date: 2009-07-14  
+Build Date: 2010-03-08  
 Requirements: Symphony 2.0.4+
 
 Automatically enables the [jQuery Date Picker](http://docs.jquery.com/UI/Datepicker) on the "Publish" screen in the Symphony administration.
@@ -20,3 +20,7 @@ Automatically enables the [jQuery Date Picker](http://docs.jquery.com/UI/Datepic
 * The date format is currently set as the Symphony default: 20 January 2009. The format can be changed by editing the initialise.js file in accordance with the formatting instructions at: [http://docs.jquery.com/UI/Datepicker/%24.datepicker.formatDate](http://docs.jquery.com/UI/Datepicker/%24.datepicker.formatDate)
 
 * The date picker is styled using the default jQuery UI 'Cupertino' theme.
+
+## Changelog ##
+
+**1.2:** Added .repeatingdate selector to initialise JS.
