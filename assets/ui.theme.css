@@ -236,3 +236,11 @@
 /* Overlays */
 .ui-widget-overlay { background: #444444 url(images/444444_40x100_textures_08_diagonals_thick_15.png) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30); }
 .ui-widget-shadow { margin: 4px 0 0 4px; padding: 0px; background: #aaaaaa url(images/aaaaaa_40x100_textures_07_diagonals_small_0.png) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;  }
+
+/* Fix for S2.2: */
+table.ui-datepicker-calendar tr th { border-bottom: 1px solid #ddd; padding: 0; }
+table.ui-datepicker-calendar tr td { padding: 0; border: none; }
+table.ui-datepicker-calendar a { margin: 2px; }
+table.ui-datepicker-calendar tr:first-of-type td { padding-top: 2px; }
+table.ui-datepicker-calendar tr:last-of-type td { border-bottom: none; }
+table.ui-datepicker-calendar tr:last-of-type a { margin-bottom: 0;}
