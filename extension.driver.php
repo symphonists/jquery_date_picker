@@ -5,8 +5,8 @@
 		public function about(){
 			return array(
 				'name' => 'jQuery Date Picker',
-				'version' => '1.1',
-				'release-date' => '2009-01-20',
+				'version' => '1.3',
+				'release-date' => '2011-04-05',
 				'author' => array(
 					'name' => 'Max Wheeler',
 					'email' => 'max@makenosound.com'
