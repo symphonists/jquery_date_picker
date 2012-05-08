@@ -25,7 +25,7 @@
 		}
 		
 		public function initializeAdmin($context) {
-			$page = $context['parent']->Page;
+			$page = Administration::instance()->Page;
 			$assets_path = '/extensions/jquery_date_picker/assets/';
 			
 			# load jQuery and autocomplete JS
