@@ -1,18 +1,6 @@
 <?php
 
 	Class extension_jquery_date_picker extends Extension{
-
-		public function about(){
-			return array(
-				'name' => 'jQuery Date Picker',
-				'version' => '1.3',
-				'release-date' => '2011-04-05',
-				'author' => array(
-					'name' => 'Max Wheeler',
-					'email' => 'max@makenosound.com'
-				)
-			);
-		}
 		
 		public function getSubscribedDelegates() {
 			return array(
@@ -25,7 +13,7 @@
 		}
 		
 		public function initializeAdmin($context) {
-			$page = $context['parent']->Page;
+			$page = Administration::instance()->Page;
 			$assets_path = '/extensions/jquery_date_picker/assets/';
 			
 			# load jQuery and autocomplete JS
